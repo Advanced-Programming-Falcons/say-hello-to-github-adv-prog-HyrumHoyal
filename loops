@@ -11,6 +11,8 @@ int main(void){
         }
         num++;
     }
+    do {cout << "hello";} 
+    while (num < 1000);
     
     for (int num = 0; num < 100; num++){
         cout << " num = " << num  << endl;
